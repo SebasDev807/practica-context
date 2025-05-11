@@ -1,0 +1,29 @@
+@reference 'tailwindcss';
+
+
+.app-container {
+    @apply
+    flex
+    min-h-screen
+}
+
+
+
+
+.sidebar{
+    @apply 
+    bg-slate-800 
+    text-slate-100
+    w-64
+    min-h-screen
+    p-4
+}
+
+
+.main-content {
+    @apply flex-1 p-6 bg-slate-100
+}
+
+.linkItem {
+    @apply flex items-center w-full p-3 rounded-md hover:bg-slate-700 transition-colors
+}

@@ -1,0 +1,40 @@
+@reference 'tailwindcss';
+
+.authLayout {
+    @apply min-h-screen bg-slate-800 grid place-items-center shadow-2xl
+}
+
+.formContainer {
+    @apply bg-slate-100 rounded-xl w-80
+}
+
+.form{
+    @apply p-4 space-y-4 w-full
+}
+
+.input {
+    @apply outline-none bg-slate-200 rounded-lg p-2 text-sm
+}
+
+.btnlogin{
+    @apply 
+    text-center 
+    bg-slate-800 
+    w-full
+    hover:bg-slate-900 
+    px-2 py-1
+    cursor-pointer
+    text-white
+}
+
+.linkTo{
+    @apply text-blue-700 hover:text-blue-800 transition-colors
+}
+
+.btnPasswordEye {
+    @apply absolute right-3 top-13 -translate-y-1/2 text-gray-600 hover:text-blue-900 cursor-pointer
+}
+
+.errorMessage {
+    @apply mt-1 text-[12px] text-red-500 font-medium bg-red-100 border border-red-300 rounded px-3 py-0
+}
